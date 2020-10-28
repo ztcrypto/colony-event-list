@@ -1,0 +1,38 @@
+.eventsList {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background: white;
+  border-radius: 6px;
+  transition: height 1s;
+}
+
+@media only screen and (max-width: 780px) {
+  .eventsList {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .eventsList {
+    max-width: 400px;
+  }
+}
+.infinite-scroll-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.spinnerDiv {
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
